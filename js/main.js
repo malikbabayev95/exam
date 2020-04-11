@@ -69,8 +69,9 @@ $('.cavab').click(function () {
             sehv++
         }
         var anaDili = duzgun-riyaziyyat
-        $('.ana-duz').text(anaDili)
-        $('.riyaziyyat-duz').text(riyaziyyat)
+        
+        $('.ana-duz').text(anaDili + " düz")
+        $('.riyaziyyat-duz').text(riyaziyyat  + " düz")
         $(this).parents(".malik").next(".malik").delay(3100).fadeIn(500)
     }
 })
