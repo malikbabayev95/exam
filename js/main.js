@@ -73,3 +73,4 @@ $('.cavab').click(function () {
     $(this).parents(".malik").next(".malik").delay(3100).fadeIn(500)
 }
 })
+
